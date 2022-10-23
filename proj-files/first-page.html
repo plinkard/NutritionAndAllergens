@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <style>
+      body{
+        background-color: #F4F1E0;
+      }
+      /* #catalog {
+        padding: 20px 20px;
+        display: flex;
+        align-items: center;
+        border-color:black;
+      } */
+
+      .menu-item{
+        font-size: 14px;
+        color:black;
+        margin: 0px 20px;
+        text-decoration: none;
+      }
+
+      .menu-item:hover{
+        text-decoration: underline;
+        font-weight:800;
+      }
+
+      #restaurant{
+        margin-right:auto;
+      }
+
+      .front-image{
+        height:160px;
+        width:220px;
+      }
+
+      
+
+      .side-image{
+        width:300px;
+        height: 300px;
+        margin-top:200px;
+        margin-right:200px;
+        display:flex;
+        
+      }
+
+      #text{
+        margin-top:150px;
+        text-align: center;
+        color:#2E1200;
+      }
+
+      #down-image{
+        margin:100px;
+      }
+
+      #bottom-text{
+            padding-right: 100%;
+            background-color:#93826A;
+            color:white;
+            position:fixed;
+            bottom:0;
+            text-align: center;
+            padding-left:10px;
+        
+        }
+
+      ul.nav-bar {
+        /* Styling for the <ul class="nav-bar"> element */
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(244, 245, 248);
+        border-top: 30px solid #93826A;
+        border-bottom: 2px solid #93826A;
+        border-color: rgb(185, 122, 66);
+        text-align: center;
+      }
+  
+      li.nav {
+          /* Styling for the <li class="nav"> element */
+          float: center;
+          font-size: 15px;
+          display: flex;
+          flex-direction: row;
+          text-align: center;
+          display: inline;
+        }
+        
+      /* TODO (optional): Change the font color, decoration, and/or case */
+      
+      li.nav a {
+        /* Styling for the <a> elements in <li class="nav"> */
+        display: block;
+        color: rgb(185, 122, 66);
+        text-align: center;
+        display: inline-block;
+        padding: 14px 16px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+      
+      /* TODO (optional): Change the background color and/or font color when the mouse hovers over an item */
+      
+      li.nav a:hover {
+        /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
+        background-color: rgb(185, 122, 66);
+        color: rgb(244, 245, 248);
+      }
+
+    </style>
+    <head>
+        <title>the Front page</title>
+    </head>
+    <body>
+          <!-- <div id="catalog">
+            <a class="menu-item" id="restaurant">Restaurant Name</a>
+            <a class="menu-item" href="https://www.verywellfit.com/recipe-nutrition-analyzer-4157076">Nutrition Calculator</a>
+            <a class="menu-item" href="https://www.starbucks.com/menu?utm_campaign=fy22brand50th_20211004&utm_source=google&utm_medium=cpc&utm_term=starbucks&utm_matchtype=e">About this Restaurant</a>
+            </a>
+          </div> -->
+          <nav>
+            <ul class="nav-bar">
+              <li class="nav"><a>Home</a></li>
+              <li class="nav"><a href="nutritionsAndAllergies.html">Nutrition Calculator</a></li>
+              <li class="nav"><a href="#howtohelp">About the Restaurant</a></li>
+            </ul>
+          </nav>
+    
+          <div style="float:left">
+            <div id="text">
+              <h1 style="font:500px;font-family:'Algerian'">Gatech Salad Place</h1>
+              <p style="margin-top:20px;font-family:'Comic Sans MS'">A place where students and staff can make salad on their own</p>
+            </div>
+
+            <div id="down-image">
+              <a>
+                <img src="images/food1.png" alt="image/blank.jpg" class="front-image">
+              </a>
+              <a>
+                <img src="images/food2.png" alt="image/blank.jpg" class="front-image">
+              </a>
+              <a class="front-image">
+                <img src="images/food3.png" alt="image/blank.jpg" class="front-image">
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <a class="side-image" style="float:right">
+              <img src="images/blank.jpg" alt="profile">
+            </a>
+          </div>
+        
+         <div id="bottom-text" style="float:down;">
+          <p>Brought to you by:</p>
+          <p>MenuAssistant</p>
+         </div> 
+
+    </body>
+    
+
+</html>

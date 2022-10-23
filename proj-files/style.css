@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(244, 245, 248);
+  }
+  h1 {
+    color: rgb(150, 133, 240);
+    justify-content: center;
+  }
+  ul.nav-bar {
+    /* Styling for the <ul class="nav-bar"> element */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(244, 245, 248);
+    border-top: 30px solid rgb(185, 122, 66);
+    border-bottom: 2px solid rgb(185, 122, 66);
+    border-color: rgb(185, 122, 66);
+    text-align: center;
+  }
+  
+li.nav {
+    /* Styling for the <li class="nav"> element */
+    float: center;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    display: inline;
+  }
+  
+  /* TODO (optional): Change the font color, decoration, and/or case */
+  
+  li.nav a {
+    /* Styling for the <a> elements in <li class="nav"> */
+    display: block;
+    color: rgb(185, 122, 66);
+    text-align: center;
+    display: inline-block;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  /* TODO (optional): Change the background color and/or font color when the mouse hovers over an item */
+  
+  li.nav a:hover {
+    /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
+    background-color: rgb(185, 122, 66);
+    color: rgb(244, 245, 248);
+  }
+
+/* light brown = #D5C7B4
+dark brown = #93826A*/
+  #pic1{
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+  }
+  #pic2{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+  }
+  #pic3{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+  }
+  #bigPic{
+    width:300px;
+    height: 300px;
+    border-radius: 8px;
+  }
+
+  .smallPictures{
+    display: flex;
+    justify-content: left;
+    margin: 20px;
+    justify-content: space-between;
+  }
+
+  .bigPicture{
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+  }
+    
