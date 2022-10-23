@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body{
+            color:white;
+        }
+        .block{
+            background-color: #93826A;
+            margin:50px;
+            margin-bottom:100px;
+            padding: 10px 50px 50px 50px;
+            border-radius: 20px;
+            padding-right: 150px;
+        }
+
+        .blocke{
+            background-color: #93826A;
+            margin:50px;
+            margin-bottom:100px;
+            padding : 50px;
+            border-radius: 20px;
+            position:relative;
+        }
+
+        .checkbox{
+            margin:20px;
+        }
+
+        #search-bar{
+            height:20px;
+            font-size:12px;
+            border-radius:14px;
+
+            border:1px solid #C2C2C2;
+            width: 90%;
+            padding-left:20px;
+            padding-right:20px;
+            margin-top: 10px;
+        }
+
+        #bottom-text{
+            padding-right: 100%;
+            padding-left:10px;
+            background-color: #F2ECD1;
+            position:fixed;
+            bottom:0;
+            text-align: center;
+        
+        }
+        
+        .right{
+            margin-right:500px;
+        }
+
+        #description{
+            padding: 40px;
+            background-color: #93826A;
+            margin:20px;
+            border-radius: 20px;
+            padding-bottom:200px;
+
+        }
+
+        ul.nav-bar {
+            /* Styling for the <ul class="nav-bar"> element */
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(244, 245, 248);
+            border-top: 30px solid #93826A;
+            border-bottom: 2px solid #93826A;
+            border-color: rgb(185, 122, 66);
+            text-align: center;
+        }
+        
+        .front-image{
+            height:500px;
+            width:600px;
+            border-radius: 10px;
+        }
+
+        li.nav {
+            /* Styling for the <li class="nav"> element */
+            float: center;
+            font-size: 15px;
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            display: inline;
+        }
+        
+        .change{
+            padding-bottom:20px;
+        }
+        /* TODO (optional): Change the font color, decoration, and/or case */
+        
+        li.nav a {
+            /* Styling for the <a> elements in <li class="nav"> */
+            display: block;
+            color: rgb(185, 122, 66);
+            text-align: center;
+            display: inline-block;
+            padding: 14px 16px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        
+        /* TODO (optional): Change the background color and/or font color when the mouse hovers over an item */
+        
+        li.nav a:hover {
+            /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
+            background-color: rgb(185, 122, 66);
+            color: rgb(244, 245, 248);
+        }
+
+    </style>
+    <script>
+        // obj = document.getElementsById("lettuce");
+        // if(obj.checked){
+        //     alert("the")
+        //     document.getElementsById("bowl"),innerHTML="images/lettuce.png";
+        // }
+        const js = document.querySelector('#Lettuce');
+        if(js.checked){
+
+        }
+    </script>
+    <head>
+        <title>Prebuilt</title>
+    </head>
+    <body>
+
+        <nav>
+            <ul class="nav-bar">
+              <li class="nav"><a>Home</a></li>
+              <li class="nav"><a href="nutritionsAndAllergies.html">Nutrition Calculator</a></li>
+              <li class="nav"><a href="#howtohelp">About the Restaurant</a></li>
+            </ul>
+        </nav>
+
+        <h1 style="text-align: center;color:black;">Menu Item - Prebuilt</h1>
+
+        <div style="float:left">
+            <div id="first" class="block">
+                <h2>&#8711 Macronutrient Profile</h2>
+                <p>5g Crabs</p>
+                <p>5g Protein</p>
+                <p>5g Fat</p>
+                <p>5g Calories</p>
+            </div>
+
+            <div class="block">
+                <h2>&#8711 Allergens</h2>
+                <p>Major Allergens</p>
+                <p>Search Ingredients</p>
+                <input id="search-bar" placeholder="Search..."/>
+            </div>
+
+            <div class="block">
+                <h2>&#8711 Customize</h2>
+                <p>Ingredient Selection</p>
+                <input type="checkbox" class="checkbox">Onions|+5 Cal<br>
+                <input type="checkbox" class="checkbox">Tomatos|+5 Cal<br>
+                <input type="checkbox" class="checkbox" id="lettuce">Lettuce|+5 Cal<br>
+                <input type="checkbox" class="checkbox">Pepers|+5 Cal<br>
+                <input type="checkbox" class="checkbox">Chicken|+100 Cal<br>
+                <input type="checkbox" class="checkbox">Beef|+100 Cal<br>
+            </div>
+        </div>
+
+        <div>
+            <div class="blocke" style="float:right">
+                <img  src="images/bowl.png" alt="" class="front-image" id="bowl">
+            </div>
+        </div>
+
+        <div>
+            <div style="float:right" id="description">
+                <h2 class="right" style="float:left">&#8711 About this item</h2>
+                <p class="right">Description</p>
+            </div>
+        </div>
+
+        <div id="bottom-text" style="float:down;color:black">
+            <p>Brought to you by: MenuAssistant</p>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <script src="script.js" defer></script>
+        <link rel="stylesheet" href="nutrition.css" />
+        <title>JEANs Nutrition</title>
+      </head>
+    <body>
+
+        <nav>
+            <ul class="nav-bar">
+              <li class="nav"><a href ="https://wimage03.github.io/Project/first-page.html">Home</a></li>
+              <li class="nav"><a href="nutritionsAndAllergies.html">Nutrition Calculator</a></li>
+              <li class="nav"><a href="https://wimage03.github.io/Project/third-page.html">Pre-Build</a></li>
+            </ul>
+          </nav>
+        
+        <h1>Restaurant Nutrition and Allergens</h1>
+        <button id = "apply-filters-button">Apply Filters</button>
+
+        <div class = "flex-container">
+        <div class = "flex-child left">
+        <div class="nutrition-facts-checklist" id="filters">
+
+            
+            <ul id = "filters-checklist">
+                <li>
+                    <h2 class="checklist-header">
+                    Calories
+                  </h2>
+                  
+                  <div id="calories-list">
+                    
+                        <label class = "container"> less than 300
+                            <input type="checkbox" checked = "checked">
+                            <span class = "checkmark"></span>
+                        </label>
+                    
+                        <label class = "container"> 300-500
+                            <input type="checkbox" checked = "checked">
+                            <span class = "checkmark"></span>
+                        </label>
+                    
+                        <label class = "container"> 500-700
+                            <input type="checkbox" checked = "checked">
+                            <span class = "checkmark"></span>
+                        </label>
+                
+                        <label class = "container">700-900
+                            <input type="checkbox" checked = "checked">
+                            <span class = "checkmark"></span>
+                        </label>
+
+                        <label class = "container"> more than 900
+                            <input type="checkbox" checked = "checked">
+                            <span class = "checkmark"></span>
+                        </label>
+                </div>
+                </li>
+
+                <li>
+                    <h2 class = "checklist-header">
+                        Proteins
+                    </h2>
+                    <div id="proteins-list">
+                       
+                            <label class = "container"> less than 10g
+                                <input type="checkbox" checked = "checked">
+                                <span class = "checkmark"></span>
+                            </label>
+             
+                            <label class = "container"> 10 - 20g
+                                <input type="checkbox" checked = "checked">
+                                <span class = "checkmark"></span>
+                            </label>
+                    
+                            <label class = "container"> 20g - 30g
+                                <input type="checkbox" checked = "checked">
+                                <span class = "checkmark"></span>
+                            </label>
+                
+                            <label class = "container">30g - 40g
+                                <input type="checkbox" checked = "checked">
+                                <span class = "checkmark"></span>
+                            </label>
+                       
+                            <label class = "container"> more than 40g
+                                <input type="checkbox" checked = "checked">
+                                <span class = "checkmark"></span>
+                            </label>
+                    </div>
+                </li>
+                <li>
+                    <div class = "does-contain">
+                        <h2 class = "checklist-header">Does Contain</h2>
+                        <div class="searchBar">
+                            <input type="text" name="textie" id="searchBar" />
+                        </div>
+                      </div>
+                </li>
+                <li>
+                    <div class = "does-not-containt">
+                        <h2 class = "checklist-header">Does not Contain</h2>
+                        <div class="searchBar">
+                            <input type="text" name="textie" id="searchBar" />
+                        </div>
+                      </div>
+                </li>
+        
+            </ul>
+
+            
+              
+              
+          </div>
+          </div>
+          <img id = "riceBowl" src = "food1.png"/>
+          <div class = "flex-child right" >
+          <div class = "food-item-boxes">
+            <ul id = "column">
+                <ul id = "row1">
+                    <li class = "food" id = "a1">
+                        
+                        <div id = "first">
+                            <div id = "second"></div>
+                               
+                            <img class="hide" id = "image1" src = "empty_bowl.png"/>  
+                        </div>
+                    </li>
+                    <li class = "food" id = "a2">
+                        <img class="hide" id = "image" src = "https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg?size=626&ext=jpg&ga=GA1.2.1847611534.1665692103&semt=sph"/>
+                        <div id = "first">
+                            <div id = "second"></div>
+                            
+                        </div>
+                    </li>
+                    <li class = "food" id = "a3">
+                        <div id = "first">
+                            <div id = "second"></div>
+                            <img class="hide" id = "image" src = "https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg?size=626&ext=jpg&ga=GA1.2.1847611534.1665692103&semt=sph"/>
+                        </div>
+                    </li>
+                </ul>
+                <ul class = "food" id = "row2">
+                    <li id = "b1">
+                        <div id = "first">
+                            <div id = "second"></div>
+                            <img class="hide" id = "image" src = "https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg?size=626&ext=jpg&ga=GA1.2.1847611534.1665692103&semt=sph"/>
+                
+                        </div>
+                    </li>
+                    <li class = "food" id = "b2">
+                        <div id = "first">
+                            <div id = "second"></div>
+                            <img class="hide" id = "image" src = "https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg?size=626&ext=jpg&ga=GA1.2.1847611534.1665692103&semt=sph"/>
+                        </div>
+                    </li>
+                    <li class = "food" id = "b3">
+                        <div id = "first">
+                            <div id = "second"></div>
+                            <img class="hide" id = "image" src = "https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg?size=626&ext=jpg&ga=GA1.2.1847611534.1665692103&semt=sph"/>
+                        </div>
+                    </li>
+                </ul>
+                <ul class = "food" id = "row3">
+                    <li id = "c1">
+                        <div id = "first">
+                            <div id = "second"></div>
+                            <img class="hide" id = "image" src = "https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg?size=626&ext=jpg&ga=GA1.2.1847611534.1665692103&semt=sph"/>
+                        </div>
+                    </li>
+                    <li class = "food" id = "c2">
+                        <div id = "first">
+                            <div id = "second"></div>
+                            <img class="hide" id = "image" src = "https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg?size=626&ext=jpg&ga=GA1.2.1847611534.1665692103&semt=sph"/>
+                        </div>
+                    </li>
+                    <li class = "food" id = "c3">
+                        <div id = "first">
+                            <div id = "second"></div>
+                            <img class="hide" id = "image" src = "https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg?size=626&ext=jpg&ga=GA1.2.1847611534.1665692103&semt=sph"/>
+                        </div>
+                    </li>
+                </ul>
+            </ul>
+            
+          </div>
+          </div>
+        </div>
+
+    </body>
+</html>
+
+<!--
+    <ul id="calories-list">
+                    <li class="check-off">
+                        <label class = "container"> less than 300
+                            <input type="checkbox" checked = "checked">
+                            <span class = "checkmark"></span>
+                        </label>
+                    </li>
+                    <li class="check-off">
+                        <label class = "container"> 300-500
+                            <input type="checkbox" checked = "checked">
+                            <span class = "checkmark"></span>
+                        </label>
+                    </li>
+                    <li class="check-off">
+                        <label class = "container"> 500-700
+                            <input type="checkbox" checked = "checked">
+                            <span class = "checkmark"></span>
+                        </label>
+                    </li>
+                    <li class="check-off">
+                        <label class = "container">700-900
+                            <input type="checkbox" checked = "checked">
+                            <span class = "checkmark"></span>
+                        </label>
+                    </li>
+                    <li class="check-off">
+                        <label class = "container"> more than 900
+                            <input type="checkbox" checked = "checked">
+                            <span class = "checkmark"></span>
+                        </label>
+                    </li>
+                  </ul>
+                </li>
+
+                <li>
+                    <h2 class = "checklist-header">
+                        Proteins
+                    </h2>
+                    <ul id="proteins-list">
+                        <li class="check-off">
+                            <label class = "container"> less than 10g
+                                <input type="checkbox" checked = "checked">
+                                <span class = "checkmark"></span>
+                            </label>
+                        </li>
+                        <li class="check-off">
+                            <label class = "container"> 10 - 20g
+                                <input type="checkbox" checked = "checked">
+                                <span class = "checkmark"></span>
+                            </label>
+                        </li>
+                        <li class="check-off">
+                            <label class = "container"> 20g - 30g
+                                <input type="checkbox" checked = "checked">
+                                <span class = "checkmark"></span>
+                            </label>
+                        </li>
+                        <li class="check-off">
+                            <label class = "container">30g - 40g
+                                <input type="checkbox" checked = "checked">
+                                <span class = "checkmark"></span>
+                            </label>
+                        </li>
+                        <li class="check-off">
+                            <label class = "container"> more than 40g
+                                <input type="checkbox" checked = "checked">
+                                <span class = "checkmark"></span>
+                            </label>
+                        </li>
+                      </ul>
+                </li>
+                <li>
+                    <div class = "does-contain">
+                        <h2 class = "checklist-header">Does Contain</h2>
+                      </div>
+                </li>
+                <li>
+                    <div class = "does-not-containt">
+                        <h2 class = "checklist-header">Does not Contain</h2>
+                      </div>
+                </li>
+        
+            </ul>
+
+--> 
